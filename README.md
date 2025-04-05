@@ -48,19 +48,19 @@ Below are key visual representations that were generated during the project to a
 <li>4 correctly classified normal images</li>
 <li>Misclassifications are also shown, indicating areas where the model could be improved.</li>
 </ul>
-
+<hr>
 <h3>🔹 2. Scatter Plot of Features</h3>
 <img src="images/output_2.png" width="400"/>
 <p>This plot visualizes the relationship between <b>Feature 1</b> and <b>Feature 2</b> extracted from the <b>GLCM</b>. It shows a clear trend and slight clustering of the two classes (Normal and Diabetic).</p>
-
+<hr>
 <h3>🔹 3. Line Plot of Predictions</h3>
 <img src="images/output_3.png" width="400"/>
 <p>This line graph compares the actual labels with the model's predictions, helping to visualize how the model’s output aligns with the true data.</p>
-
+<hr>
 <h3>🔹 4. Histogram of Feature 1</h3>
 <img src="images/output_4.png" width="400"/>
 <p>Displays the frequency distribution of <b>Feature 1</b> values across all images. This helps in understanding how the data is spread and can guide normalization or scaling techniques.</p>
-
+<hr>
 <h3>🔹 5. Bar Chart of Class Distribution</h3>
 <img src="images/output_5.png" width="400"/>
 <p>Visualizes the number of images in each class. It shows that there are significantly more <b>diabetic</b> samples than <b>normal</b>, indicating a class imbalance that may affect model training and evaluation.</p>
