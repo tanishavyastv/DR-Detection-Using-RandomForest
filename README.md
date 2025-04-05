@@ -37,6 +37,33 @@ To detect whether a retinal image belongs to a <b>Normal</b> patient or indicate
 <tr><td>F1 Score</td><td>0.207</td></tr>
 </table>
 
+<h2>📈 Sample Visualizations</h2>
+Below are key visual representations that were generated during the project to analyze and evaluate the data and model performance:
+<h3>🔹 1. Confusion Matrix</h3>
+
+This matrix displays the number of correct and incorrect predictions made by the model, broken down by each class. It highlights:
+<ul>
+<li>60 correctly classified diabetic images</li>
+<li>4 correctly classified normal images</li>
+<li>Misclassifications are also shown, indicating areas where the model could be improved.</li>
+</ul>
+
+<h3>🔹 2. Scatter Plot of Features</h3>
+
+This plot visualizes the relationship between <b>Feature 1</b> and <b>Feature 2</b> extracted from the <b>GLCM</b>. It shows a clear trend and slight clustering of the two classes (Normal and Diabetic).
+
+<h3>🔹 3. Line Plot of Predictions</h3>
+
+This line graph compares the actual labels with the model's predictions, helping to visualize how the model’s output aligns with the true data.
+
+<h3>🔹 4. Histogram of Feature 1</h3>
+
+Displays the frequency distribution of <b>Feature 1</b> values across all images. This helps in understanding how the data is spread and can guide normalization or scaling techniques.
+
+<h3>🔹 5. Bar Chart of Class Distribution</h3>
+
+Visualizes the number of images in each class. It shows that there are significantly more <b>diabetic</b> samples than <b>normal</b>, indicating a class imbalance that may affect model training and evaluation.
+
 <h2>🌲 Random Forest Classifier</h2>
 <ul>
 <li>A supervised ensemble algorithm using multiple decision trees.</li>
