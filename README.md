@@ -41,7 +41,7 @@ To detect whether a retinal image belongs to a <b>Normal</b> patient or indicate
 Below are key visual representations that were generated during the project to analyze and evaluate the data and model performance:
 
 <h3>🔹 1. Confusion Matrix</h3>
-![Confusion Matrix](images/output_1.png)
+<img src="images/output_1.png" width="400"/>
 <p>This matrix displays the number of correct and incorrect predictions made by the model, broken down by each class. It highlights:</p>
 <ul>
 <li>60 correctly classified diabetic images</li>
@@ -50,19 +50,19 @@ Below are key visual representations that were generated during the project to a
 </ul>
 
 <h3>🔹 2. Scatter Plot of Features</h3>
-![Scatter Plot](images/output_2.png)
+<img src="images/output_2.png" width="400"/>
 <p>This plot visualizes the relationship between <b>Feature 1</b> and <b>Feature 2</b> extracted from the <b>GLCM</b>. It shows a clear trend and slight clustering of the two classes (Normal and Diabetic).</p>
 
 <h3>🔹 3. Line Plot of Predictions</h3>
-![Line Plot](images/output_3.png)
+<img src="images/output_3.png" width="400"/>
 <p>This line graph compares the actual labels with the model's predictions, helping to visualize how the model’s output aligns with the true data.</p>
 
 <h3>🔹 4. Histogram of Feature 1</h3>
-![Histogram](images/output_4.png)
+<img src="images/output_4.png" width="400"/>
 <p>Displays the frequency distribution of <b>Feature 1</b> values across all images. This helps in understanding how the data is spread and can guide normalization or scaling techniques.</p>
 
 <h3>🔹 5. Bar Chart of Class Distribution</h3>
-![Histogram](images/output_4.png)
+<img src="images/output_5.png" width="400"/>
 <p>Visualizes the number of images in each class. It shows that there are significantly more <b>diabetic</b> samples than <b>normal</b>, indicating a class imbalance that may affect model training and evaluation.</p>
 
 <h2>🌲 Random Forest Classifier</h2>
